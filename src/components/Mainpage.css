@@ -1,0 +1,34 @@
+.mainpic img {
+    transform: translateY(10%);
+  float: right;
+  border-radius: 1.5rem;
+  width: 400px;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+}
+
+.main h1 {
+    font-size: 4rem;
+    color: #f4ce14;
+}
+
+.main p {
+    margin: 2rem 0;
+  max-width: 400px;
+}
+
+.main .button{
+    background-color: #d2e2dd;
+    padding: 1rem;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    font-size: large;
+}
+.main .button:hover{
+    background-color: #abc0b9;
+    cursor: pointer;
+    padding: 1rem;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    font-size: large;
+}

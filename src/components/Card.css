@@ -1,0 +1,34 @@
+.cardset {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  border-radius: 1rem;
+  max-width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.434);
+  background-color: rgba(95, 95, 95, 0.285);
+}
+.card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+}
+.card .info{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.card .choosebutton{
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: solid 1px #fff;
+  cursor: pointer;
+  
+}

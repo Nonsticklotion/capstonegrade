@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../images/Logo.svg";
 
-const Header = () => {
+const Nav = () => {
   return (
     <>
       <header style={{ backgroundColor: "black", color: "white" }}>
@@ -65,4 +65,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Nav;

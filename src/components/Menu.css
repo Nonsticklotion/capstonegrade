@@ -1,0 +1,9 @@
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    margin: 7rem 0 2rem 0;
+}
+section h1{
+    font-size: 4rem;
+}
