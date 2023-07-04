@@ -41,13 +41,13 @@ const Nav = () => {
               </Link>
             </li>
             <li style={{ margin: "10px 20px 20px 0" }}>
-              <Link style={{ color: "white", textDecoration: "none" }}>
+              <Link to="/booking" style={{ color: "white", textDecoration: "none" }}>
                 Reservations
               </Link>
             </li>
             <li style={{ margin: "10px 20px 20px 0" }}>
               <Link
-                to="/booking"
+                
                 style={{ color: "white", textDecoration: "none" }}
               >
                 Order Online
